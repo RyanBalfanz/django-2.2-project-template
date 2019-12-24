@@ -9,6 +9,7 @@ django-debug-toolbar = "*"
 [packages]
 django = "==2.2.9"
 django-extensions = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.7"
