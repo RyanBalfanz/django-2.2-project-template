@@ -1,0 +1,26 @@
+{
+    "name": "Project {{ project_name }}",
+    "description": "Created from https://github.com/RyanBalfanz/django-2.2-project-template",
+    "repository": "https://github.com/RyanBalfanz/django-2.2-project-template",
+    "logo": "https://static.djangoproject.com/img/logos/django-logo-positive.svg",
+    "keywords": [
+        "django"
+    ],
+    "env": {
+        "DJANGO_SETTINGS_MODULE": "{{ project_name }}.settings"
+    },
+    "environments": {
+        "addons": [
+            "heroku-postgresql",
+            "heroku-redis"
+        ],
+        "review": {
+            "env": {
+                "DJANGO_SETTINGS_MODULE": "{{ project_name }}.settings_review",
+                "SECRET_KEY": {
+                    "generator": "secret"
+                }
+            }
+        }
+    }
+}
