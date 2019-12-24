@@ -1,0 +1,6 @@
+site_name: django-2.2-project-template
+repo_url: https://github.com/RyanBalfanz/django-2.2-project-template
+nav:
+    - Home: index.md
+    - Usage: usage.md
+theme: material

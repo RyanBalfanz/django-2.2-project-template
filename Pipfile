@@ -6,6 +6,8 @@ verify_ssl = true
 [dev-packages]
 django-debug-toolbar = "*"
 ipdb = "*"
+mkdocs = "*"
+mkdocs-material = "*"
 
 [packages]
 django = "==2.2.9"
